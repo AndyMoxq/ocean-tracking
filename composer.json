@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ocean\\Tracking\\Providers\\OceanTrackingServiceProvider"
+        "Ocean\\Tracking\\OceanTrackingServiceProvider"
       ]
     }
   }
