@@ -1,13 +1,22 @@
 {
   "name": "ydn/tracking",
+  "description": "Laravel package for ocean tracking API integration.",
   "type": "library",
+  "keywords": ["laravel", "ocean", "tracking", "container", "logistics"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Moxq",
+      "email": "andy@outsofas.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
   "autoload": {
     "psr-4": {
       "Ocean\\Tracking\\": "src/"
     }
-  },
-  "require": {
-    "php": "^8.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -17,6 +26,5 @@
         "Ocean\\Tracking\\Providers\\OceanTrackingServiceProvider"
       ]
     }
-  },
-  "license": "MIT"
+  }
 }
