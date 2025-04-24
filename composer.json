@@ -1,0 +1,21 @@
+{
+  "name": "ocean/tracking",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Ocean\\Tracking\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ocean\\Tracking\\Providers\\OceanTrackingServiceProvider"
+      ]
+    }
+  }
+}
