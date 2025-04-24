@@ -17,5 +17,6 @@
         "Ocean\\Tracking\\Providers\\OceanTrackingServiceProvider"
       ]
     }
-  }
+  },
+  "license": "MIT"
 }
