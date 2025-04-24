@@ -190,7 +190,7 @@ return new class extends Migration {
             $table->dateTime('createtime')->nullable()->comment('订阅时间(Subscription time)');
             $table->string('declarationno',18)->nullable()->comment('报关单号(Customs declaration number)');
             $table->string('referenceno', 32)->nullable()->comment('订阅时上传的单号');
-            $table->string('isctnr',2)->default('')->comment('是否是箱号订阅（0=否;1=是）');
+            $table->string('isctnr',2)->nullable()->comment('是否是箱号订阅（0=否;1=是）');
             $table->string('currentvslname',64)->nullable()->comment('当前船名(Current ship name)');
             $table->string('currentvoy',32)->nullable()->comment('当前航次(Current voyage)');
             $table->string('companycd', 8)->nullable()->comment('企业编号(Enterprise ID)');

@@ -14,7 +14,7 @@ class OceanTrackingController extends Controller {
             'referenceno' => 'required'
         ]);
         try {
-            $this -> updateOrCreate($data);
+            $this -> updateOrCreate($request -> all());
             return response()->json([
                 'code' => 0,
                 'message' => 'Success'
